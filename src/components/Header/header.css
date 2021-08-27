@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.hot-topics {
+    display: flex;
+    justify-content: space-around;
+    height: 36.5px;
+    align-items: center;
+}
+
+.hot-btn {
+    display: flex;
+    width: 34%;
+    justify-content: space-around;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 135px;
+}
+
+.menu-btn {
+    width: 9%;
+    height: 17.5px;
+}
+
+.brand-logo {
+    width: 48%;
+    height: 46.5px;
+    justify-content: center;
+    display: flex;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu-btn {
+    display: flex;
+}
+
+.main-menu-btn li {
+    margin-right: 13px;
+}
