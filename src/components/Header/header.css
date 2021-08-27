@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;800&display=swap');
+
+ 
 .header {
     display: flex;
     flex-direction: column;
+    font-family: 'Dosis', sans-serif;
 }
 
 .hot-topics {
@@ -8,24 +12,50 @@
     justify-content: space-around;
     height: 36.5px;
     align-items: center;
+    background-color: rgb(230, 31, 91);
+    color: white;
+    
 }
 
 .hot-btn {
     display: flex;
     width: 34%;
     justify-content: space-around;
+    
+}
+
+#login-btn{
+    background-color: rgb(230, 31, 91);
+    border-color: white;
+    border-style: solid;
+    color: white;
+    border-width: thin;
 }
 
 .sub-header {
+    font-family: 'Dosis', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 135px;
+    height: 74px;
+    font-weight: bold;
+    background: rgb(243, 243, 243);
+    border-bottom-color: rgba(187, 187, 187, 0.479);
+    border-style: solid;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Dosis', sans-serif;
 }
 
 .menu-btn {
+    font-family: 'Dosis', sans-serif;
     width: 9%;
     height: 17.5px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    
 }
 
 .brand-logo {
@@ -33,15 +63,39 @@
     height: 46.5px;
     justify-content: center;
     display: flex;
+    font-family: fantasy;
+    font-size: 50px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#assine-btn{
+    background: rgb(0 202 212);
+    color: white;
+    border-style: none;
+    height: 29px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
 }
 
 .main-menu {
     display: flex;
+    height: 35px;
     justify-content: center;
+    font-weight: bold;
+    background: rgb(243, 243, 243);
+    border-bottom-color: rgba(187, 187, 187, 0.425);
+    border-style: solid;
+    border-width: thin;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'Dosis', sans-serif;
 }
 
 .main-menu-btn {
     display: flex;
+    margin-top: 8px;
 }
 
 .main-menu-btn li {
