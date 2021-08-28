@@ -2,6 +2,7 @@ import React from 'react'
 import './news.css'
 
 
+
 export default function News() {
     return (
         <div className='news'>
@@ -16,6 +17,12 @@ export default function News() {
                 Por Nome do Aluno Atualizado em 18 ago 2020, 10h47 - Publicado em 30 mar 2020, 17h14
             </span>
             <div className="border"></div>
+
         </div>
+
+        
+        
     )
+
 }
+
