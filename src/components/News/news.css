@@ -1,0 +1,27 @@
+.news {
+    text-align: center;
+    margin: 2% 20%;
+}
+
+p {
+    color: rgb(224, 69, 69);
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.description {
+    font-size: 20px;
+    padding: 0% 11%;
+    font-weight: normal;
+}
+
+.author {
+    font-size: 15px;
+}
+
+.border {
+    margin-top: 5%;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.425);
+}
